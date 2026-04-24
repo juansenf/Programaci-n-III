@@ -10,7 +10,7 @@ export default function NotasLayout({ children }) {
 
   return (
     <div className="flex min-h-screen bg-zinc-900">
-      <aside className="w-72 py-8 px-6 border-r border-zinc-700">
+      {/*<aside className="w-72 py-8 px-6 border-r border-zinc-700">
         <div>
           <h1 className="text-4xl font-bold">Notas</h1>
           <p>Todas nuestras notas</p>
@@ -34,7 +34,7 @@ export default function NotasLayout({ children }) {
           ))}
         </div>
       </aside>
-
+*/}
       {children}
       
     </div>

@@ -105,7 +105,7 @@ export default function RootLayout({ children }) {
               <div>
                 <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">Notas App</p>
                 <p className="mt-4 text-base leading-7 text-zinc-300">
-                    App de notas que hice para la tarea de clase. Todavía estoy aprendiendo, así que está simple.
+                    App de notas.
                   </p>
                   <p className="mt-6 text-sm text-zinc-500">Autor: Juansennnn | Clase: 3° | Fecha: Abril 2026</p>
                 <div>
@@ -118,7 +118,6 @@ export default function RootLayout({ children }) {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-[0.15em] text-zinc-400">Más</h3>
                   <ul className="mt-4 space-y-3 text-sm text-zinc-300">
                     <li><Link href="/notes/create" className="hover:text-white">Crear nota</Link></li>
                     <li><Link href="/projects/team" className="hover:text-white">Equipo de proyecto</Link></li>

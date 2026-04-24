@@ -9,10 +9,10 @@ export default function Home() {
             <div className="max-w-2xl space-y-6">
               <p className="text-sm uppercase tracking-[0.4em] text-indigo-400">App de Notas</p>
               <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl">
-                Hola, soy Juansennnn y esto es mi tarea de notas
+                Hola, soy Juansennnn
               </h1>
               <p className="max-w-xl text-zinc-300">
-                Hice esta app para la clase. Está simple y sirve para mostrar rutas y páginas en Next.js, nada muy avanzado.
+                Mostrar rutas y páginas en Next.js.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/notes" className="rounded-full bg-indigo-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-indigo-400">
@@ -27,13 +27,13 @@ export default function Home() {
               <h2 className="text-xl font-semibold text-white">Qué podés hacer</h2>
               <ul className="mt-6 space-y-4 text-zinc-300">
                 <li className="rounded-2xl bg-zinc-900 p-4">
-                  <strong className="text-white">Páginas:</strong> inicio, notas, proyectos y sobre.
+                  <strong className="text-white">CREÁ</strong> notas nuevas o revisa notas ya existentes.
                 </li>
                 <li className="rounded-2xl bg-zinc-900 p-4">
-                  <strong className="text-white">Ruta anidada:</strong> /projects/team para ver el equipo.
+                  <strong className="text-white">DESCUBRÍ</strong> la nueva sección de proyectos.
                 </li>
                 <li className="rounded-2xl bg-zinc-900 p-4">
-                  <strong className="text-white">Ruta dinámica:</strong> /projects/[nombre] lee el parámetro.
+                  <strong className="text-white">NAVEGÁ</strong> mejor y rápido.
                 </li>
               </ul>
             </div>
@@ -44,19 +44,19 @@ export default function Home() {
           <article className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8">
             <h3 className="text-2xl font-semibold text-white">Notas</h3>
             <p className="mt-4 text-zinc-400">
-              Administra tu contenido con ejemplos prácticos de rutas y layouts. Crea notas nuevas o revisa notas ya existentes.
+              Creá notas nuevas o revisa notas ya existentes.
             </p>
           </article>
           <article className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8">
             <h3 className="text-2xl font-semibold text-white">Proyectos</h3>
             <p className="mt-4 text-zinc-400">
-              Descubre la nueva sección de proyectos con rutas anidadas y dinámicas que muestran como leer parámetros desde la URL.
+              Descubrí la nueva sección de proyectos.
             </p>
           </article>
           <article className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8">
             <h3 className="text-2xl font-semibold text-white">Diseño</h3>
             <p className="mt-4 text-zinc-400">
-              El layout principal ahora incluye navegación mejorada y un footer con información del proyecto y enlaces rápidos.
+              Navegación mejorada y enlaces rápidos.
             </p>
           </article>
         </section>

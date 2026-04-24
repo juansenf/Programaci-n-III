@@ -10,15 +10,15 @@ export default function page() {
             Sobre mí
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Soy Juansennnn. Esta es la página de info de la tarea, hecha con Next.js. No sé mucho todavía, pero ya pude crear varias rutas y un footer.
+            Soy Juansennnn.
           </p>
         </div>
 
         {/* Seccion que muestre mis notas */}
         <section className='w-full h-64 my-8 p-6 rounded-lg flex flex-col bg-zinc-800 text-white justify-between'>
           <div>
-            <h1 className='font-semibold text-lg'>¿Qué hay acá?</h1>
-            <p className='mt-2 text-sm text-zinc-300'>Acá conté que hice la app para la tarea y que estoy aprendiendo. Es simple, pero funciona.</p>
+            <h1 className='font-semibold text-lg'>Esta es la página de info de la tarea, hecha con Next.js.</h1>
+            <p className='mt-2 text-sm text-zinc-300'>Esta es la página de info de la tarea, hecha con Next.js.</p>
           </div>
         </section>
 
